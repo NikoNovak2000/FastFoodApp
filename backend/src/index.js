@@ -25,4 +25,5 @@ app.get('/getAll', async (req, res) => {
     res.json(results)
 })
 
+//Komentar
 app.listen(port, () => console.log(`Slušam na portu ${port}!`));
